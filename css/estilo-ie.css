@@ -1,0 +1,96 @@
+@charset "utf-8";
+/* CSS Document */
+.container {width: 95%;}
+#main {margin-left: 0;}
+#header {
+	overflow: hidden;
+	background: #999;
+}
+#header-nav {
+	background: #999;
+	padding-top: 20px;
+	position: relative;
+}
+#search {
+	float: right;
+	margin-top: 10px;	
+}
+#search div {
+	float: right;
+	margin-right: 20px;
+}
+#filter {
+	width: 100%;
+	margin-top: 50px;
+	position: relative;
+}
+#filter ul {
+	height: 55px;
+	margin: 0 0 10px 1%;
+}
+#filter ul li {
+	list-style: none;
+	text-decoration: none;
+	display: inline;
+}
+#filter ul li a {
+	background: url(../img/icones2.png) no-repeat;
+	display: inline-block;
+	width: 53px;
+	height: 52px;
+}
+#filter li #alerta {background-position: 0 0;}
+#filter li #atividade {background-position: -60px 0;}
+#filter li #caso {background-position:-120px 0;}
+#filter li #cirurgia {background-position: -180px 0;}
+#filter li #contra {background-position: -239px 0;}
+#filter li #definicao {background-position: -3px -55px;}
+#filter li #diagnostico {background-position: -60px -56px;}
+#filter li #formula {background-position: -119px -56px;}
+#filter li #importante {background-position: -179px -56px;}
+#filter li #indicacao {background-position: -238px -55px;}
+#filter li #lembrar {background-position: 0 -112px;}
+#filter li #posologia {background-position: 0 -112px;}
+#filter li #tecnica {background-position: -120px -112px;}
+#filter li #tratamento {background-position: -180px -112px;}
+#navigation ul li {
+	text-decoration: none;
+	list-style: none;
+}
+.accordion-inner ul {margin-left: 5px;}
+.accordion-heading {background: #999;}
+.accordion-heading a {
+	color: #fff;
+	font-weight: bold;
+	text-decoration: none;
+	font-size: 0.9em;
+}
+#topics {padding: 20px 0 0 0;}
+.itens {
+	padding: 0 10px;
+	width: 97.55%;
+	margin-bottom: 15px;
+}
+.itens:hover {background: #ddd;}
+.itens span[id] {
+	background: url(../img/icones2.png) no-repeat;
+	display: inline-block;	
+	width: 53px;
+	height: 52px;
+	float: left;
+	margin: 5px 10px 0 0;
+}
+#alerta {background-position: -1px 0;}
+#atividade {background-position: -60px 0;}
+#caso {background-position:-120px 0;}
+#cirurgia {background-position: -180px 0;}
+#contra {background-position: -239px 0;}
+#definicao {background-position: -3px -55px;}
+#diagnostico {background-position: -60px -56px;}
+#formula {background-position: -119px -56px;}
+#importante {background-position: -179px -56px;}
+#indicacao {background-position: -238px -55px;}
+#lembrar {background-position: 0 -112px;}
+#posologia {background-position: -60px -112px;}
+#tecnica {background-position: -120px -112px;}
+#tratamento {background-position: -180px -112px;}

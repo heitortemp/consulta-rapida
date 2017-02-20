@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<artigos>
+	<artigo id="art1" name="Disfunção do tendão tibial posterior">
+		<topico id="art1top1" name="Epidemiologia">
+            <subtopico id="art1top1subtop1" name="teste1">
+                <item name="Alerta" id="alerta">A</item>
+                <item name="Atividade" id="atividade">B</item>
+                <item name="Caso Clínico" id="caso">C</item>
+            </subtopico>
+            <subtopico id="art1top1subtop2" name="teste2">
+                <item name="Alerta" id="alerta">D</item>
+                <item name="Atividade" id="atividade">E</item>
+                <item name="Caso Clínico" id="caso">F</item>
+            </subtopico>
+			<item name="Contra Indicação" id="contra"><![CDATA[<p><img src="img/img.jpg"></p><p>2</p>]]></item>
+			<item name="Definição" id="definicao">2</item>
+			<item name="Diagnóstico" id="diagnostico">3</item>
+		</topico>
+		<topico id="art1top2" name="Etiologia">
+			<item name="Fórmula" id="formula">4</item>
+			<item name="Importante" id="importante">5</item>
+			<item name="Indicação" id="indicacao">6</item>
+		</topico>
+		<topico id="art1top3" name="Apresentação clínica">
+			<item name="Lembrar" id="lembrar">7</item>
+			<item name="Posologia" id="posologia">8</item>
+			<item name="Técnica" id="tecnica">9</item>
+		</topico>
+		<topico id="art1top4" name="Diagnóstico">
+			<item name="Tratamento" id="tratamento">10</item>
+			<item name="Alerta" id="alerta">11</item>
+			<item name="Atividade" id="atividade">12</item>
+		</topico>
+		<topico id="art1top5" name="Classificação">
+			<item name="Caso clínico" id="caso">13</item>
+			<item name="Cirurgia" id="cirurgia">14</item>
+			<item name="Contraindicação" id="contra">15</item>
+		</topico>
+	</artigo>
+	<artigo id="art2" name="Fraturas da cabeça do fêmur">
+		<topico id="art2top1" name="Epidemiologia">
+			<item name="Definição" id="definicao">16</item>
+			<item name="Diagnóstico" id="diagnostico">17</item>
+			<item name="Fórmula" id="formula">18</item>
+		</topico>
+	</artigo>
+	<artigo id="art3" name="Lesão SLAP">
+		<topico id="art3top1" name="Epidemiologia">
+            <subtopico id="art3top5subtop1" name="teste3">
+                <item name="Importante" id="importante">G</item>
+                <item name="Indicação" id="indicacao">H</item>
+                <item name="Lembrar" id="lembrar">I</item>
+            </subtopico>
+            <subtopico id="art3top5subtop2" name="teste4">
+                <item name="Posologia" id="posologia">J</item>
+                <item name="Técnica" id="tecnica">K</item>
+                <item name="Tratamento" id="tratamento">L</item>
+            </subtopico>
+			<item name="Alerta" id="alerta">31</item>
+			<item name="Atividade" id="atividade">32</item>
+			<item name="Caso clínico" id="caso">33</item>
+		</topico>
+		<topico id="art3top2" name="Etiologia">
+			<item name="Cirurgia" id="cirurgia">34</item>
+			<item name="Contraindicação" id="contra">35</item>
+			<item name="Definição" id="definicao">36</item>
+		</topico>
+	</artigo>
+</artigos>

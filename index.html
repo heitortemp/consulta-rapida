@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<title>PROATO</title>
+<!-- TWITTER BOOTSTRAP CSS -->
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+<!-- ESTILO CSS CUSTOMIZADO -->
+<link href="css/estilo.css" rel="stylesheet" type="text/css">
+<!--[if IE 8]>
+<link href="css/estilo-ie.css" rel="stylesheet" type="text/css" />
+<![endif]-->
+<!-- JQUERY -->
+<script src="js/jquery.js"></script>
+<!-- TWITTER BOOTSTRAP JS -->
+<script src="js/bootstrap.min.js"></script>
+<!-- JAVASCRIPT CUSTOMIZADO -->
+<script src="js/js.js"></script>
+</head>
+<body>
+<div class="container" id="container">
+  <div class="row-fluid"> 
+    
+    <!-- menu collapse artigos --> 
+    <!--  barra de navegacao lateral -->
+    <div class="span2 hidden-phone hidden-tablet" id="menu"></div>
+    <!--  fim barra de navegacao lateral --> 
+    
+    <!-- area do conteudo -->
+    <div class="span10" id="main"> 
+      
+      <!-- area de navegacao de artigos para telas pequenas -->
+      <div class="row-fluid hidden-desktop" id="header-nav">
+        <form class="form-horizontal hidden-desktop" method="post">
+          <div class="control-group">
+            <div id="article" class="option_filter">
+              <select id="articles" name="articles">
+              	<option value="">Selecione um artigo</option>
+              </select>
+            </div>
+            <div id="scheme" class="option_filter">
+              <select id="schemes" name="schemes" onChange="load_content(this.value)"></select>
+            </div>
+            <div id="subscheme" class="option_filter">
+              <select id="subschemes" name="subschemes" onChange="load_content(this.value)"></select>
+            </div>
+          </div>
+        </form>
+      </div>
+      <!-- fim area de navegacao de artigos para telas pequenas --> 
+      
+      <!-- cabecalho da area de conteudo -->
+      <div class="row-fluid header" id="header"> 
+        <!-- caixa de texto da pesquisa -->
+        <div class="row-fluid visible-desktop" id="search">
+          <form class="form-search search-bar">
+            <div class="input-append">
+              <input type="text" class="search-query" placeholder="Pesquisar">
+              <button type="submit" class="btn btn-primary"><i class="icon-search icon-white"></i></button>
+            </div>
+          </form>
+          <a href="#" id="todos">Selecionar todos</a> </div>
+        <!-- fim caixa de texto da pesquisa --> 
+        <!-- area dos icones de filtros de conteudo -->
+        <div class="row-fluid filter" id="filter">
+          <ul>
+            <li><a href="#" class="opcoes highlight" id="alerta" title="Alerta"></a></li>
+            <li><a href="#" class="opcoes highlight" id="atividade" title="Atividade"></a></li>
+            <li><a href="#" class="opcoes highlight" id="caso" title="Caso"></a></li>
+            <li><a href="#" class="opcoes highlight" id="cirurgia" title="Cirurgia"></a></li>
+            <li><a href="#" class="opcoes highlight" id="contra" title="Contra-indicação"></a></li>
+            <li><a href="#" class="opcoes highlight" id="definicao" title="Definição"></a></li>
+            <li><a href="#" class="opcoes highlight" id="diagnostico" title="Diagnóstico"></a></li>
+            <li><a href="#" class="opcoes highlight" id="formula" title="Fórmula"></a></li>
+            <li><a href="#" class="opcoes highlight" id="importante" title="Importante"></a></li>
+            <li><a href="#" class="opcoes highlight" id="indicacao" title="Indicação"></a></li>
+            <li><a href="#" class="opcoes highlight" id="lembrar" title="Lembrar"></a></li>
+            <li><a href="#" class="opcoes highlight" id="posologia" title="Posologia"></a></li>
+            <li><a href="#" class="opcoes highlight" id="tecnica" title="Técnica"></a></li>
+            <li><a href="#" class="opcoes highlight" id="tratamento" title="Tratamento"></a></li>
+          </ul>
+        </div>
+        <!-- area dos icones de filtros de conteudo --> 
+      </div>
+      <!-- fim cabecalho da area de conteudo --> 
+      <!-- area onde aparecem os topipcos -->
+      <div class="content" id="topics"></div>
+      <!-- fim area onde aparecem os topipcos --> 
+    </div>
+    <!-- fim area do conteudo --> 
+  </div>
+</div>
+<!-- fim corpo -->
+</body>
+</html>

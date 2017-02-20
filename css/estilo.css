@@ -1,0 +1,304 @@
+@charset "utf-8";
+/* CSS Document */
+/* Large desktop */
+#main {margin-left: 0;}
+#header {
+	overflow: hidden;
+	background: #999;
+}
+#header-nav {
+	background: #999;
+	padding-top: 20px;
+	position: relative;
+}
+#search {
+	float: right;
+	margin-top: 10px;	
+}
+#search div {
+	float: right;
+	margin-right: 20px;
+}
+#search a {
+	margin-left: 20px;
+	color: #fff;
+	font-weight: bold;
+	font-size: 12px;
+	text-decoration: none;
+}
+#search a:hover {
+	color: #3D7B37;
+}
+#filter {
+	width: 100%;
+	margin-top: 50px;
+	position: relative;
+}
+#filter ul {
+	height: 71px;
+	margin: 0 0 10px 3%;
+}
+#filter ul li {
+	list-style: none;
+	text-decoration: none;
+	display: inline;
+}
+#filter ul li a {
+	background: url(../img/icones.png) no-repeat;
+	display: inline-block;	
+	width: 63px; 
+	height: 63px;	
+}
+.highlight {
+	border: 1px solid #fff;
+	border-radius: 40px;
+	-moz-border-radius: 40px;
+	-webkit-border-radius: 40px;
+}
+#filter li #alerta {background-position: 0 0;}
+#filter li #atividade {background-position: -90px 0;}
+#filter li #caso {background-position:-180px 0;}
+#filter li #cirurgia {background-position: -271px 0;}
+#filter li #contra {background-position: -362px 0;}
+#filter li #definicao {background-position: 0 -90px;}
+#filter li #diagnostico {background-position: -90px -90px;}
+#filter li #formula {background-position: -180px -90px;}
+#filter li #importante {background-position: -271px -90px;}
+#filter li #indicacao {background-position: -362px -90px;}
+#filter li #lembrar {background-position: 0 -180px;}
+#filter li #posologia {background-position: -90px -180px;}
+#filter li #tecnica {background-position: -180px -180px;}
+#filter li #tratamento {background-position: -271px -180px;}
+#filter li #navigation ul li {
+	text-decoration: none;
+	list-style: none;
+}
+#topics {padding: 5px;}
+.itens {
+	padding: 5px 0 0 15px;
+	margin-bottom: 15px;
+	width: 99%;
+}
+.itens:hover {background: #ddd;}
+.itens span[id] {
+	background: url(../img/icones.png) no-repeat;
+	display: inline-block;	
+	width: 63px; 
+	height: 63px;
+	float: left;
+	margin: 0 10px 7px 0;
+}
+#alerta {background-position: 0 0;}
+#atividade {background-position: -90px 0;}
+#caso {background-position:-180px 0;}
+#cirurgia {background-position: -271px 0;}
+#contra {background-position: -362px 0;}
+#definicao {background-position: 0 -90px;}
+#diagnostico {background-position: -90px -90px;}
+#formula {background-position: -180px -90px;}
+#importante {background-position: -271px -90px;}
+#indicacao {background-position: -362px -90px;}
+#lembrar {background-position: 0 -180px;}
+#posologia {background-position: -90px -180px;}
+#tecnica {background-position: -180px -180px;}
+#tratamento {background-position: -271px -180px;}
+#menu {
+	min-height: 30px;
+	background-color: #ccc;
+}
+.menu_header {
+	background-color: #999;
+	padding: 10px 5px;
+}
+.menu_header a {
+	text-decoration: none;
+	font-weight: bold;
+	color: #fff;
+}
+.group-menu {
+	display: block;
+	padding: 0;
+	margin: 0;
+	overflow: visible;
+	border: solid 0.5px #ccc;
+}
+#menu ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	border-bottom: 1px solid #ccc;
+}
+#menu ul li {
+	position: relative;
+}
+#menu ul li a {
+	display: block;
+	text-decoration: none;
+	background: #fff; /* IE6 Bug */
+	padding: 5px;
+	border: 1px solid #ccc;
+	border-bottom: 0;
+}
+/* Fix IE. Hide from IE Mac \*/
+* #menu ul li {
+	height: 1%;
+}
+* #menu ul li a {
+	height: 1%;
+}
+/* End */
+.in {display: block;}
+.out {display: none;}
+#menu ul li a:hover {
+	background: #f9f9f9;
+} /* Hover Styles */
+ul ul {
+	position: absolute;
+	display: none;
+	left: 100%; /* Set 1px less than menu width */
+	top: 0;
+	width: 100%;
+	z-index: 1;
+}
+li ul li a {
+	padding: 2px 5px;
+} /* Sub Menu Styles */
+li:hover ul ul, li.over ul ul {
+	display: none;
+}
+li:hover ul, li li:hover ul, li.over ul, li li.over ul {
+	display: block;
+} /* The magic */
+/* Portrait tablet to landscape and desktop */
+@media (max-width: 1199px) {
+.container {width: 96%;}
+#header {overflow: auto;}
+#search {margin-top: 10px;}
+#filter {
+	width: 830px; 
+	margin-top: 55px;
+}
+#filter ul {
+	height: 55px;
+	margin: 0 0 10px 8px;
+}
+#filter ul li a {
+	background: url(../img/icones2.png) no-repeat;
+	height: 100%;
+	width: 53px;
+	height: 52px 
+}
+#filter li #alerta {background-position: -1px 0;}
+#filter li #atividade {background-position: -60px 0;}
+#filter li #caso {background-position:-120px 0;}
+#filter li #cirurgia {background-position: -180px 0;}
+#filter li #contra {background-position: -239px 0;}
+#filter li #definicao {background-position: -3px -55px;}
+#filter li #diagnostico {background-position: -60px -56px;}
+#filter li #formula {background-position: -119px -56px;}
+#filter li #importante {background-position: -179px -56px;}
+#filter li #indicacao {background-position: -238px -55px;}
+#filter li #lembrar {background-position: 0 -112px;}
+#filter li #posologia {background-position: -60px -112px;}
+#filter li #tecnica {background-position: -120px -112px;}
+#filter li #tratamento {background-position: -180px -112px;}
+.highlight {
+	border-radius: 30px;
+	-moz-border-radius: 30px;
+	-webkit-border-radius: 30px;
+}
+#header-nav {margin-bottom: -55px;}
+.option_filter {
+	width: 30%;
+	position: relative;
+	float: left;
+	padding-left: 3%;
+}
+#article {
+	z-index: 1;
+}
+#article select {
+	width: 90%;
+}
+#scheme {
+	width: 30%;
+	position: relative;
+	z-index: 2;
+	float: left;
+	padding-left: 3%;
+}
+#scheme select {
+	width: 90%;
+	display: none;
+}
+#subscheme {
+	width: 30%;
+	position: relative;
+	z-index: 3;
+	float: left;
+	padding-left: 3%;
+}
+#subscheme select {
+	width: 90%;
+	display: none;
+}
+#topics {padding: 15px 0 0 10px;}
+.itens {
+	padding: 5px 0 0 10px;
+	margin-bottom: 15px;
+	width: 99%;
+}
+.itens:hover {background: #ddd;}
+.itens span[id] {
+	background: url(../img/icones2.png) no-repeat;
+	display: inline-block;	
+	width: 53px;
+	height: 52px;
+	float: left;
+	margin: 5px 10px 0 0;
+}
+#alerta {background-position: -1px 0;}
+#atividade {background-position: -60px 0;}
+#caso {background-position:-120px 0;}
+#cirurgia {background-position: -180px 0;}
+#contra {background-position: -239px 0;}
+#definicao {background-position: -3px -55px;}
+#diagnostico {background-position: -60px -56px;}
+#formula {background-position: -119px -56px;}
+#importante {background-position: -179px -56px;}
+#indicacao {background-position: -238px -55px;}
+#lembrar {background-position: 0 -112px;}
+#posologia {background-position: -60px -112px;}
+#tecnica {background-position: -120px -112px;}
+#tratamento {background-position: -180px -112px;}
+#header-nav {margin-bottom: -55px;}
+}
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+.accordion-inner ul {margin-left: 0;}
+#filter {
+	width: 970px; 
+	margin-top: 45px;
+}
+#filter ul {
+	margin-left: 5px;
+	height: 50px;
+}
+.itens {
+	margin-bottom: 15px;
+	background: #ddd;	
+}
+#topics {padding: 20px 0 0 0;}
+}
+/* Landscape phones and down */
+@media (max-width: 480px) {
+#header-nav {padding-top: 10px;}
+#header-nav  form {height: 15px;}
+#filter {margin-top: 60px;}
+#filter ul {margin-left: 0px;}
+#topics {padding: 20px 0 0 0;}
+select {
+	font-size: 12px;
+    height: 25px;
+}
+}
